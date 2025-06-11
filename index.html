@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Plabber</title>
+</head>
+<body>
+  <h1>⚽ Plabber - 슈퍼서브 감지기</h1>
+  <button onclick="startMonitoring()">감지 시작</button>
+  <p id="status">상태: 대기 중</p>
+
+  <script>
+    function startMonitoring() {
+      document.getElementById('status').innerText = '상태: 감지 중...';
+      // Puppeteer 연결 예정
+    }
+  </script>
+</body>
+</html>
